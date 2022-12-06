@@ -46,7 +46,8 @@ int main() {
         // Call function
         volume = TriangleVolumeCalculation(base, height, length);
         std::cout << "The volume of a triangle with the base of "
-                  << base << " cm, the height of " << height << " cm, and the length of "
+                  << base << " cm, the height of "
+                  << height << " cm, and the length of "
                   << length << "cm is "
                   << volume << " cm³.";
     } catch (std::invalid_argument) {
